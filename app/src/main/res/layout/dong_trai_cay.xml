@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:background="@drawable/custom_traicay"
+        android:padding="10dp"
+        android:id="@+id/imagview"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:background="@drawable/custom_chu"
+        android:id="@+id/textviewten"
+        android:textSize="20dp"
+        android:textColor="#FF0059"
+        android:text="Ten"
+        android:layout_toRightOf="@id/imagview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="@drawable/custom_mota"
+        android:textSize="15dp"
+        android:id="@+id/textviewmota"
+        android:text="mo ta"
+        android:textColor="#304FFE"
+        android:layout_below="@id/textviewten"
+        android:layout_toRightOf="@id/imagview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_below="@+id/imagview"
+        android:background="#CFC3C3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</RelativeLayout>
